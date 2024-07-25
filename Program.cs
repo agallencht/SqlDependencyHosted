@@ -131,10 +131,8 @@ namespace SqlDependencyHosted
                 //TODO  Aquí puedes agregar la lógica para manejar los cambios detectados
 
                 if (e.Info == SqlNotificationInfo.Update) {
-                    throw new Exception("VAYA PESSS!!!");
+                    throw new Exception("Provocar error adrede para ver que se vuelve a registrar sqldeps!!!");
                 }
-
-
             }
             catch (Exception ex)
             {
